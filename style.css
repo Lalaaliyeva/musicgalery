@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-image: url(./image/woman-attending-online-class.jpg);
+    height: 41.5rem;
+    background-size: cover;
+}
+
+#main{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    
+}
+
+#main li{
+    margin-top: 2rem;
+}
+
+#main li a{
+    text-decoration: none;
+    padding-left: 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color:blue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    transition: 1s ;
+}
+
+ul li a:hover{
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    background-color: rgb(205, 151, 50);
+    padding: .5rem;
+}
+
+marquee{
+    position: absolute;
+    left:4rem;
+    top:4rem;
+    font-size: 2rem;
+    color:yellow;
+    font-weight: bolder;
+    text-shadow: 2px 3px rgb(0, 0, 255);
+    font-family:Bradley Hand,
+    cursive;
+    
+}
+
+
